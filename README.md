@@ -87,14 +87,6 @@ const db = mysql.createConnection({
 
 ---
 
-## 🖥 ตัวอย่าง Screenshot
-
-> แสดงตัวอย่างหน้าฟอร์มและรายการโค้ด
-
-![Snippet List UI](https://via.placeholder.com/800x400?text=Your+UI+Screenshot)
-
----
-
 ## 📌 หมายเหตุ
 
 - โปรเจกต์นี้ออกแบบสำหรับใช้งานบนเครื่องส่วนตัว (localhost)
@@ -105,7 +97,7 @@ const db = mysql.createConnection({
 
 ## 🙌 เครดิต
 
-- [Next.js](https://nextjs.org/)
+- [React.js](https://react.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Express.js](https://expressjs.com/)
 - [MySQL2](https://www.npmjs.com/package/mysql2)
