@@ -15,8 +15,8 @@
 
 ## 🛠️ Stack
 
-- **Frontend:** Next.js + Tailwind CSS + Axios + SweetAlert2
-- **Backend:** Node.js (Express)
+- **Frontend:** React.js + Tailwind CSS + Axios + SweetAlert2
+- **Backend:** Node.js (Express) + Nodemon
 - **Database:** MySQL2
 
 ---
@@ -27,7 +27,7 @@
 
 ```bash
 git clone https://github.com/AomSirawit/vibeCodeSnippet.git
-cd code-snippet-manager
+cd vibeCodeSnippet
 ```
 
 ---
