@@ -49,7 +49,7 @@ npm run dev
 ```bash
 cd ../server
 npm install
-node index.js
+npm start
 ```
 
 > Backend จะรันที่ `http://localhost:4000`
