@@ -26,7 +26,7 @@
 ### 1. Clone โปรเจกต์
 
 ```bash
-git clone https://github.com/your-username/code-snippet-manager.git
+git clone https://github.com/AomSirawit/vibeCodeSnippet.git
 cd code-snippet-manager
 ```
 
@@ -40,7 +40,7 @@ npm install
 npm run dev
 ```
 
-> หน้านี้จะรันบน `http://localhost:3000`
+> หน้านี้จะรันบน `http://localhost:5173`
 
 ---
 
@@ -58,12 +58,12 @@ node index.js
 
 ### 4. สร้างฐานข้อมูล MySQL
 
-สร้างฐานข้อมูล `code_snippet_db` แล้วรัน SQL นี้:
+สร้างฐานข้อมูล `codesnippet` แล้วรัน SQL นี้:
 
 ```sql
-CREATE DATABASE code_snippet_db;
+CREATE DATABASE codesnippet;
 
-USE code_snippet_db;
+USE codesnippet;
 
 CREATE TABLE snippets (
   id INT AUTO_INCREMENT PRIMARY KEY,
@@ -87,14 +87,6 @@ const db = mysql.createConnection({
 
 ---
 
-## 🖥 ตัวอย่าง Screenshot
-
-> แสดงตัวอย่างหน้าฟอร์มและรายการโค้ด
-
-![Snippet List UI](https://via.placeholder.com/800x400?text=Your+UI+Screenshot)
-
----
-
 ## 📌 หมายเหตุ
 
 - โปรเจกต์นี้ออกแบบสำหรับใช้งานบนเครื่องส่วนตัว (localhost)
@@ -105,7 +97,7 @@ const db = mysql.createConnection({
 
 ## 🙌 เครดิต
 
-- [Next.js](https://nextjs.org/)
+- [React.js](https://react.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Express.js](https://expressjs.com/)
 - [MySQL2](https://www.npmjs.com/package/mysql2)
