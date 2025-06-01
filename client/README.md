@@ -35,7 +35,7 @@ cd vibeCodeSnippet
 ### 2. ติดตั้ง Frontend
 
 ```bash
-cd frontend
+cd client
 npm install
 npm run dev
 ```
@@ -47,7 +47,7 @@ npm run dev
 ### 3. ติดตั้ง Backend
 
 ```bash
-cd ../backend
+cd ../server
 npm install
 node index.js
 ```
