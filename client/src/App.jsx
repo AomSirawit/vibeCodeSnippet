@@ -138,7 +138,7 @@ export default function App() {
                       toast: true,
                       position: "top-end",
                       icon: "success",
-                      title: "คัดลอกเรียบร้อยแล้ว!",
+                      title: "Copy Successfully!",
                       showConfirmButton: false,
                       timer: 1500,
                       timerProgressBar: true,
